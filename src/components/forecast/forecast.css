@@ -1,0 +1,49 @@
+.forecast-container {
+  color: white;
+  width: 90vw;
+  padding: 10px;
+  display: flex;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+  min-height: 180px;
+  border-radius: 15px;
+}
+
+.daily-item {
+  border: 2px solid #f0f0f084;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  scroll-snap-align: center;
+  padding: 10px;
+  margin: 0 5px;
+  border-radius: 30px;
+  background-color: rgba(240, 240, 240, 0.5); /* Adjust transparency as needed */
+  backdrop-filter: blur(10px); /* Adjust blur intensity as needed */
+  box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+}
+
+.daily-item img {
+  width: 50px;
+  height: 50px;
+}
+
+.daily-item:hover {
+  background-color: #8A2BE2; /* Lighten the background on hover */
+  transform: scale(1.05);
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.forecast-container::-webkit-scrollbar {
+  display: none;
+}
+.day{
+  font-size: 16px;
+  font-weight: 900;
+}

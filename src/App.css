@@ -1,0 +1,29 @@
+.container {
+  min-height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 0;
+  background: linear-gradient(to bottom, #8A2BE2, #4B0082); /* Violet gradient background */
+}
+
+.top-bar {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border: 5px solid transparent; /* Set border color to transparent initially */
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  padding: 20px 0;
+  backdrop-filter: blur(10px); /* Apply blur to the top section */
+  background-color: rgba(255, 255, 255, 0.6); /* White background color with transparency */
+  box-shadow: 0px 10px 20px rgba(255, 255, 255, 0.3); /* White box shadow for glass morphic effect */
+  transition: border 0.3s ease-in-out; /* Add transition for border change */
+}
+
+.Search {
+  width: 90vw;
+  padding: 10px 0px;
+}

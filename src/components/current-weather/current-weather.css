@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@700&family=Qwitcher+Grypen:wght@700&display=swap');
+.weather {
+  color: #6309f3;
+  width: 90vw;
+  min-height: 45vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  justify-content: space-between;
+}
+
+.top {
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.center {
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bottom {
+  border-radius: 100px;
+  padding: 10px 50px;
+  display: flex;
+  text-align: center;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  background-color: #f0f0f0a0; /* Background color */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5); /* Box shadow for neomorphic effect */
+}
+
+.bottom>div {
+  width: 80px;
+}
+
+.bottom>div>img {
+  height: 50px;
+  transform: translate(0px, 12px);
+}
+
+.city {
+  text-align: center;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 1;
+  margin: 0;
+  letter-spacing: 1px;
+}
+
+.date {
+  font-size: 18px;
+  opacity: 0.75;
+  margin: 0%;
+  z-index: 0;
+}
+
+.weather-desc {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  transform: translate(50%, -60%);
+}
+
+.weather-description {
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 1;
+  margin: 0;
+}
+
+.weather-icon {
+  width: 200px;
+  filter: drop-shadow(-10px 10px 10px rgba(0, 0, 0, 0.5));
+}
+
+.temperature {
+  font-family: 'Karla', sans-serif;
+  font-weight: 700;
+  font-size: 150px;
+  width: auto;
+  letter-spacing: -5px;
+  margin: 10px 0;
+  text-shadow: -5px 10px 8px rgb(0, 14, 17);
+}
+
+.details {
+  width: 100%;
+  padding-left: 20px;
+}
+
+.parameter-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.parameter-label {
+  font-weight: 600;
+  font-size: 12px;
+}
+
+.parameter-value {
+  font-weight: 800;
+  font-size: 15px;
+}
+
+.parameter-label.top {
+  border-bottom: 1px solid #fff;
+}
