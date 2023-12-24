@@ -1,6 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Karla:wght@700&family=Qwitcher+Grypen:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@800&family=Qwitcher+Grypen:wght@700&display=swap');
 .weather {
-  color: #6309f3;
+  color: #3605f97e;
   width: 90vw;
   min-height: 45vh;
   display: flex;
@@ -32,8 +32,8 @@
   gap: 10px;
   justify-content: center;
   align-items: center;
-  background-color: #f0f0f0a0; /* Background color */
-  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5); /* Box shadow for neomorphic effect */
+  background-color: #f0f0f048;
+  box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.5);
 }
 
 .bottom>div {
@@ -69,25 +69,24 @@
 }
 
 .weather-description {
-  font-weight: 400;
-  font-size: 25px;
+  font-weight: 600;
+  font-size: 30px;
   line-height: 1;
   margin: 0;
 }
 
 .weather-icon {
   width: 200px;
-  filter: drop-shadow(-10px 10px 10px rgba(0, 0, 0, 0.5));
+  filter: drop-shadow(5px 10px 10px rgba(0, 0, 0, 0.5));
 }
 
 .temperature {
   font-family: 'Karla', sans-serif;
-  font-weight: 700;
   font-size: 150px;
   width: auto;
   letter-spacing: -5px;
   margin: 10px 0;
-  text-shadow: -5px 10px 8px rgb(0, 14, 17);
+  text-shadow: 5px 10px 10px rgba(0, 14, 17, 0.656);
 }
 
 .details {

@@ -4,7 +4,9 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background: linear-gradient(to bottom, #8A2BE2, #4B0082); /* Violet gradient background */
+    background: url(../../svgs/weather.jpg); /* Violet gradient background */
+    background-position: center;
+    background-size: cover;
     color: #fff;
     padding: 20px;
     text-align: center;
